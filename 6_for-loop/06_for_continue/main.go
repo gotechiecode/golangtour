@@ -6,11 +6,11 @@ func main() {
 	i := 0
 	for {
 		i++
-		if i%2 == 0 {
+		if i==5  {
 			continue
 		}
 		fmt.Println(i)
-		if i >= 50 {
+		if i >= 10 {
 			break
 		}
 	}
